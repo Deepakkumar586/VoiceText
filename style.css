@@ -75,20 +75,23 @@ select{
     
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
 
     .hero{
-       
+       overflow-y: hidden;
         width: 100%;
     }
    .hero h1{
-        font-size: 25px;
+    margin-left: -10px;
+    font-size: 30px;
     }
     textarea{
-        width: 350px;
+        margin-left: -10px;
+        width: 300px;
     }
     .row{
-        width: 200px;
+        margin-left: -10px;
+        width: 280px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
